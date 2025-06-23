@@ -23,10 +23,10 @@ const AdminHome = () => {
         Welcome, Admin!
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <StatCard icon={FaUser} label="Total Users" value={counts.users} color="text-sky-500" />
-        <StatCard icon={FaFileAlt} label="Total Files" value={counts.files} color="text-emerald-500" delay={0.2} />
-      </div>
+     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+  <StatCard icon={FaUser} label="Total Users" value={counts.users} color="text-green-500" />
+  <StatCard icon={FaFileAlt} label="Total Files" value={counts.files} color="text-white" delay={0.2} />
+</div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <UsersFilesAreaChart data={chartData} />
